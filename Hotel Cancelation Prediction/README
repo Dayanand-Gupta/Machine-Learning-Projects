@@ -1,0 +1,6 @@
+In this particular project, we are using the Hotel Booking dataset that contains information like hotel, country, meal, adult, children, deposit type etc and using that to predict the chances of cancellation. First we pre-processed data using Pandas Library in Python. There were null values present in children, country, agent and company columns. Company columns dropped and rows with null values of column children and country are also dropped. Agent columns filled with mean.
+
+Label encoding applied to convert categorical data into numerical data. Data divided in training and testing with 80% data in training and 20% data in testing. Standard scaler used for scaling. Scaling is done after the train test split to avoid data leakage. Random forest classification algorithm applied on data.
+
+Training Set Accuracy: 100%
+Testing Set Accuracy: 99%
