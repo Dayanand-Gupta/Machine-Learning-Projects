@@ -1,0 +1,7 @@
+In this particular project, we are using a dataset that contains information like quality category, citric acid quantity, chlorides density etc and using it to predict red wine quality. First we did data pre-processing and data cleaning using python.
+
+Data divided in training and testing with 80% data in training and 20% data in testing. Robust scaler used for scaling. Scaling is done after the train test split to avoid data leakage. We applied various Machine Learning classification algorithms to get best accuracy.
+From which it was identified that SVM(Support Vector Machine) is giving best accuracy. With parameter tuning we are able to know that for C=31 we are getting the best training and testing accuracy.
+
+Training Set Accuracy: 86%
+Testing Set Accuracy: 82%
